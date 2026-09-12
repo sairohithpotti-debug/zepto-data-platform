@@ -1,4 +1,4 @@
-# Copy-paste your Scraping + Cleaning + SQLite Loader code here
+
 import re
 import urllib.parse
 import requests
