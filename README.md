@@ -34,3 +34,13 @@ Summary: Automated ETL data processing pipeline designed to ingest, clean, trans
 ⚙️ Setup & Dependencies
 * Python Version: 3.10+
 * Core Libraries: FastAPI, Uvicorn, LangGraph, ChromaDB, Sentence-Transformers, Pandas, NumPy (<2.0.0).
+Module 3: Customer Support Assistant (RAG)
+* Summary: Intelligent support assistant leveraging LangGraph stateful routing, ChromaDB vector retrieval, and FastAPI endpoints to resolve policy queries.
+* Design Decisions: Leveraged open-source local embeddings (all-MiniLM-L6-v2) and rule-assisted category classification to provide fast, deterministic policy responses without relying on paid external APIs.
+* Execution:
+1.	Navigate to the directory and install dependencies:
+2.	Start the local FastAPI server using Uvicorn:
+3.	Access the interactive Swagger UI in your browser at http://127.0.0.1:8001/docs.
+⚙️ Setup & Dependencies
+* Python Version: 3.10+
+* Core Libraries: FastAPI, Uvicorn, LangGraph, ChromaDB, Sentence-Transformers, Pandas, NumPy (<2.0.0).
