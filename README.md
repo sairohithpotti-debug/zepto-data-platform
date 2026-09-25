@@ -36,6 +36,8 @@ Summary: Automated ETL data processing pipeline designed to ingest, clean, trans
 1.	Navigate to the directory and install dependencies:
 2.	Start the local FastAPI server using Uvicorn:
 3.	Access the interactive Swagger UI in your browser at http://127.0.0.1:8001/docs.
+
+
 ⚙️ Setup & Dependencies
 * Python Version: 3.10+
 * Core Libraries: FastAPI, Uvicorn, LangGraph, ChromaDB, Sentence-Transformers, Pandas, NumPy (<2.0.0).
