@@ -24,7 +24,10 @@ An end-to-end Capstone project integrating data analytics, ETL data pipelines, a
 ### Module 2: Data Pipeline
 Summary: Automated ETL data processing pipeline designed to ingest, clean, transform, and load raw operational data into structured analytical models.
  Design Decisions: Implemented strict schema validation, exception logging, and modular transformation functions to handle edge cases and missing fields reliably.
-
+* *Execution:*
+  ```bash
+  cd data_pipeline
+  python main.py
 
 ### Module 3: Customer Support Assistant (RAG)
 * Summary: Intelligent support assistant leveraging LangGraph stateful routing, ChromaDB vector retrieval, and FastAPI endpoints to resolve policy queries.
